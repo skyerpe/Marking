@@ -1,0 +1,21 @@
+const { Events } = require('discord.js');
+module.exports = {
+	name: Events.ClientReady,
+	execute(message) {
+    if (message.channel.id === data.countingChannel) {
+	  if (message.author.bot) return;
+		let next_count = parseInt(countingChannel.topic.replace('Next count is ', ''));
+
+		if (parseInt(message.content) !== next_count) {
+			message.delete();
+		} else if(lastMsgAuthor && message.author.id === lastMsgAuthor) {
+			message.delete();
+		} else {
+		        countingChannel.setTopic('Next count is ' + (next_count + 1) + '\nMaybe not sync because Rate-Limited');
+
+		        lastMsgAuthor = message.author.id;
+	        }
+
+	}
+    }
+};
