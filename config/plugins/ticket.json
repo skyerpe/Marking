@@ -1,0 +1,14 @@
+{
+  "ticketcolor": "#AC00FF",
+  "ticketsave": "1",
+  "admin_role": ["1", "1", "1"],
+  "allowedPermissions": [
+    "ViewChannel",
+    "SendMessages",
+    "AddReactions",
+    "UseApplicationCommands",
+    "ReadMessageHistory",
+    "EmbedLinks",
+    "AttachFiles"
+  ]
+}

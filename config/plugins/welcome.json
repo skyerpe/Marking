@@ -1,0 +1,23 @@
+{
+  "status":{
+    "welcome":true,
+    "leave":true
+  },
+  "Channel":
+    {
+    "log":
+      {
+      "wel":"1",
+      "left":"1"
+      },
+    "Rule":"1",
+    "Welcome":"1",
+    "Contact":"1"
+    },
+  "Role":
+    {
+    "Member":"1",
+    "other":"1",
+    "MarkingBirth":"1"
+    }
+}
